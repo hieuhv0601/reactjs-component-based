@@ -1,0 +1,14 @@
+// // In BooksPage.js - Example of how to switch between filter types
+// const BooksPage = () => {
+//   const { setFilterMode } = useContext(BookContext);
+
+//   // Choose which filter to use
+//   useEffect(() => {
+//     setFilterMode('single'); // for WritersList
+//     // or setFilterMode('multiple'); // for WriterCheckboxFilter
+//   }, []);
+
+//   return (
+//     // ... rest of your component
+//   );
+// };

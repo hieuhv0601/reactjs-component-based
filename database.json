@@ -1,0 +1,220 @@
+{
+  "writers": [
+    {
+      "id": 1,
+      "name": "Jane Austen"
+    },
+    {
+      "id": 2,
+      "name": "Charles Dickens"
+    },
+    {
+      "id": 3,
+      "name": "Mark Twain"
+    },
+    {
+      "id": 4,
+      "name": "George Orwell"
+    },
+    {
+      "id": 5,
+      "name": "F. Scott Fitzgerald"
+    }
+  ],
+  "editors": [
+    {
+      "id": 1,
+      "fullname": "Virginia Woolf",
+      "gender": "Female",
+      "dob": "1882-01-25",
+      "nationality": "British"
+    },
+    {
+      "id": 2,
+      "fullname": "Ernest Hemingway",
+      "gender": "Male",
+      "dob": "1899-07-21",
+      "nationality": "American"
+    },
+    {
+      "id": 3,
+      "fullname": "James Joyce",
+      "gender": "Male",
+      "dob": "1882-02-02",
+      "nationality": "Irish"
+    },
+    {
+      "id": 4,
+      "fullname": "T.S. Eliot",
+      "gender": "Male",
+      "dob": "1888-09-26",
+      "nationality": "American"
+    },
+    {
+      "id": 5,
+      "fullname": "Gertrude Stein",
+      "gender": "Female",
+      "dob": "1874-02-03",
+      "nationality": "American"
+    }
+  ],
+  "books": [
+    {
+      "id": 2,
+      "title": "Great Expectations",
+      "release": "1861-08-01",
+      "description": "A coming-of-age story that depicts the growth and personal development of an orphan named Pip.",
+      "writer": 2,
+      "editor": 2,
+      "genres": [
+        "Fiction",
+        "Bildungsroman"
+      ],
+      "characters": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Adventures of Huckleberry Finn",
+      "release": "1884-12-10",
+      "description": "A novel about the journey of a young boy and a runaway slave as they seek freedom along the Mississippi River.",
+      "writer": 3,
+      "editor": 3,
+      "genres": [
+        "Adventure",
+        "Fiction"
+      ],
+      "characters": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": 4,
+      "title": "1984",
+      "release": "1949-06-08",
+      "description": "A dystopian novel that explores themes of totalitarianism, surveillance, and individuality.",
+      "writer": 4,
+      "editor": 4,
+      "genres": [
+        "Dystopian",
+        "Science Fiction"
+      ],
+      "characters": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": 5,
+      "title": "The Great Gatsby",
+      "release": "1925-04-10",
+      "description": "A novel that critiques the American Dream through the story of Jay Gatsby and his unrequited love for Daisy Buchanan.",
+      "writer": 5,
+      "editor": 5,
+      "genres": [
+        "Tragedy",
+        "Fiction"
+      ],
+      "characters": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "title": "Testing",
+      "release": "2024-11-13",
+      "description": "Bo may test",
+      "writer": 2,
+      "editor": 1,
+      "genres": [
+        "Action"
+      ],
+      "characters": [],
+      "id": 6
+    }
+  ],
+  "characters": [
+    {
+      "id": 1,
+      "fullname": "Elizabeth Bennet",
+      "book": 1
+    },
+    {
+      "id": 2,
+      "fullname": "Fitzwilliam Darcy",
+      "book": 1
+    },
+    {
+      "id": 3,
+      "fullname": "Jane Bennet",
+      "book": 1
+    },
+    {
+      "id": 4,
+      "fullname": "Pip",
+      "book": 2
+    },
+    {
+      "id": 5,
+      "fullname": "Miss Havisham",
+      "book": 2
+    },
+    {
+      "id": 6,
+      "fullname": "Joe Gargery",
+      "book": 2
+    },
+    {
+      "id": 7,
+      "fullname": "Huckleberry Finn",
+      "book": 3
+    },
+    {
+      "id": 8,
+      "fullname": "Jim",
+      "book": 3
+    },
+    {
+      "id": 9,
+      "fullname": "Tom Sawyer",
+      "book": 3
+    },
+    {
+      "id": 10,
+      "fullname": "Winston Smith",
+      "book": 4
+    },
+    {
+      "id": 11,
+      "fullname": "Julia",
+      "book": 4
+    },
+    {
+      "id": 12,
+      "fullname": "O'Brien",
+      "book": 4
+    },
+    {
+      "id": 13,
+      "fullname": "Jay Gatsby",
+      "book": 5
+    },
+    {
+      "id": 14,
+      "fullname": "Daisy Buchanan",
+      "book": 5
+    },
+    {
+      "id": 15,
+      "fullname": "Nick Carraway",
+      "book": 5
+    }
+  ]
+}
